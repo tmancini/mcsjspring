@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="mcsjSpring">
-		<class>com.edmundsassoc.mcsj.Commoditycode</class>
-		<class>com.edmundsassoc.mcsj.Vnmast</class>
-		<class>com.edmundsassoc.mcsj.Vnmastaddr</class>
-		<class>com.edmundsassoc.mcsj.VnmastaddrPK</class>
-		<class>com.edmundsassoc.mcsj.Vnmastcommodity</class>
-		<class>com.edmundsassoc.mcsj.VnmastcommodityPK</class>
+		<class>com.edmundsassoc.mcsj.entity.Commoditycode</class>
+		<class>com.edmundsassoc.mcsj.entity.Vnmast</class>
+		<class>com.edmundsassoc.mcsj.entity.Vnmastaddr</class>
+		<class>com.edmundsassoc.mcsj.entity.VnmastaddrPK</class>
+		<class>com.edmundsassoc.mcsj.entity.Vnmastcommodity</class>
+		<class>com.edmundsassoc.mcsj.entity.VnmastcommodityPK</class>
+		<class>com.edmundsassoc.mcsj.entity.Tracking</class>
 	</persistence-unit>
 </persistence>
